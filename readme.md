@@ -1,7 +1,7 @@
 # Cypress Project
 
 ## 📋 Overview
-This repository contains end-to-end tests built with [Playwright](https://playwright.dev/).  
+This repository contains end-to-end tests built with [Cypress](https://www.cypress.io/).  
 Follow the instructions below to set up the project locally and execute tests from the command line.
 
 ---
