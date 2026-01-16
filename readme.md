@@ -10,8 +10,8 @@ Follow the instructions below to set up the project locally and execute tests fr
 
 ### 1. Clone the repository
 bash
-git clone https://github.com/<your-org>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/HSMA0808/APAP-TestAutomation.git
+cd <APAP-TestAutomation>
 
 ### 2. Install dependencies
 npm install
@@ -24,6 +24,7 @@ npm run apap
 ├── cypress/
 │   ├── e2e/          # Test specifications
 │   ├── fixtures/     # Test data
+│   ├── pages/        # Objects models
 │   ├── support/      # Custom commands & setup
 ├── cypress.config.js # Cypress configuration
 ├── package.json
