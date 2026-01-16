@@ -10,21 +10,21 @@ Follow the instructions below to set up the project locally and execute tests fr
 
 ### 1. Clone the repository
 bash
-git clone https://github.com/<your-org>/<your-repo>.git
+git clone https://github.com/HSMA0808/APAP-TestAutomation.git
 cd <your-repo>
 
 ### 2. Install dependencies
 npm install
 
 ### 3. Run Tests
-npm run apap
+npm run regression
+npm run smoke
 
 ### 4. Project structure
-<your-repo>/
-├── cypress/
-│   ├── e2e/          # Test specifications
-│   ├── fixtures/     # Test data
-│   ├── support/      # Custom commands & setup
-├── cypress.config.js # Cypress configuration
+APAP-TestAutomation
+├── tests/               # Test specifications
+├── pages/               # Object models
+├── playwright.config.ts # Playwright configuration
 ├── package.json
-└── readme.md
+└── README.md
+
